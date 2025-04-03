@@ -1,1 +1,1 @@
-[TEST] Updating publishing system.
+[2025-04-03 21:20] [writing] Published Version 1.1 — finalized README, technical details, intro prompt, and copyable project seed (meno-prompt.md) for public use
