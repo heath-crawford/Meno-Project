@@ -1,3 +1,4 @@
 
 [] [code] 
-[2025-04-03 21:30] [writing] Replaced README with clean frozen v1.1 version (no Suricata) for public use
+[2025-04-03 22:35] [writing] Added meno-technical-memory-v1.0.md — foundational frozen memory architecture for Meno system design and evolution
+

@@ -1,48 +1,69 @@
-# Meno Project
+# Meno: A Fractal Memory System
 
-This is a personal system I’ve built to organize my life, manage logs, and publish updates automatically. It runs from the command line, but you don’t need to know Git to use it — everything important gets published once per day without you thinking about it.
-
-The idea came from wanting more structure, less chaos, and a tool that works with how my brain works — not against it.
-
----
-
-## What It Does
-
-- Lets me work in a folder like normal (write, code, log stuff)
-- Run `logchange` to mark what I did
-- Once a day, it checks for changes and auto-publishes to GitHub
-
-I never have to touch Git, and I don’t have to remember what I changed — it’s all tracked.
+**Version:** 1.1 (April 3, 2025)  
+**Status:** Actively evolving  
+**Project Name:** Meno *(from the Greek for “memory”)*
 
 ---
 
-## Why I Built It
+## Overview
+Meno is a personal and modular life-organization system designed to work *with* your brain — especially for ADHD users and creative thinkers. It’s powered by conversational inputs, multimodal features like Sora video integration, and structured versioning we call **Fractal Memory**.
 
-I’m learning security, writing, and trying to build better habits. This project helps me stay focused and reflect on what I’m doing while learning Git, scripting, and systems in a low-friction way.
+This README reflects **Version 1.1**, a milestone that includes daily logging, memory tracking, dynamic visual storytelling, milestone-aware versioning, and Substack narrative generation.
 
-It's designed for someone like me — with ADHD, a deep need for clarity, and no patience for bloated tools or workflows that get in the way.
-
----
-
-## Who It's For
-
-- Me, first
-- People like me who want to be intentional, structured, and creative at the same time
-- Anyone who wants to track their progress and publish it without friction
+> ⚠️ *Note: Meno is growing rapidly. Each version introduces new tools and features. Expect frequent updates.*
 
 ---
 
-## How to Use It
+## What Is Fractal Memory?
+Fractal Memory is a structured system that breaks down your long-term chat history into **defined milestones** (approx. every 75–250 pages). Each version:
+- Has its own README and system prompt.
+- Can generate narrative Substack posts, GitHub updates, and structured memory logs.
+- Is archived like a page in a journal — readable, searchable, and self-contained.
 
-- Clone the repo
-- Set up the alias `logchange`
-- Work inside the folder
-- Log what you changed
-- Let the scheduler do the rest
+**Why it matters:** You keep the *voice*, *structure*, and *value* of your thoughts even as chats grow large or get split up. You are building your own knowledge vault, one snapshot at a time.
 
 ---
 
-## Author
+## Core Features (v1.1)
+- **Daily Check-ins**: Structured prompts each morning and night.
+- **Mood, Food & Routine Logs**: Designed to detect patterns in energy, cravings, mood.
+- **Wildcard Dinners & Family Logging**: Tracks meals, photos, and stories in a way that feels meaningful.
+- **Substack Story Generator**: Auto-writes short stories using your own tone and day’s events.
+- **Sora Video Integration**: Matches visual metaphors with your day’s events or internal state.
+- **Bug Testing Framework**: Auto-generates silent issue reports and marks for improvement.
+- **Private Photo Vaults**: Stores private progress photos using opt-in keywords only.
+- **Fractal Versioning**: Freezes chats every 75–250 pages to preserve learnings and system states.
 
-Heath Crawford  
-Stoic in progress. Homelab builder. Builder of quiet systems.
+---
+
+## New in Version 1.1
+- First 5 **Substack posts** written and staged
+- 5 custom **Sora videos** created and linked
+- Finalized naming system: **Meno**
+- Added first **approved artwork** (Tree + Fire Character under canopy)
+- Storytelling framework for memory, dinner, and identity logging
+- Structured GitHub update schedule + version folder templates
+- Family system integration: Nate and Amelia included in logs and branching
+
+---
+
+## Coming Soon
+- API-based GitHub/Substack automation
+- Public user onboarding templates
+- Integrated bug-report logs with GitHub issue queue
+- Public-facing "Meno Journal" starter kit
+
+---
+
+## Where It’s Updating
+| Platform  | Purpose                              | Status         |
+|-----------|--------------------------------------|----------------|
+| GitHub    | Code, version history, bug files     | Updating live  |
+| Substack  | Narrative posts + stories             | Launching now  |
+| LinkedIn  | Personal updates & shareable wins    | In progress    |
+
+> Meno is designed to *scale*, to *teach*, and to *adapt*. You can use it privately, share it with others, or remix it for your own needs.
+
+The future is Meno.
+
