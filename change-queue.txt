@@ -1,4 +1,4 @@
 
 [] [code] 
-[2025-04-03 22:35] [writing] Added meno-technical-memory-v1.0.md — foundational frozen memory architecture for Meno system design and evolution
+[2025-04-03 22:45] [system] Added LICENSE, .gitignore, CHANGELOG, and organized docs folder for public release
 
