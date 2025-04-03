@@ -1,1 +1,3 @@
-[2025-04-03 21:20] [writing] Published Version 1.1 — finalized README, technical details, intro prompt, and copyable project seed (meno-prompt.md) for public use
+
+[] [code] 
+[2025-04-03 21:30] [writing] Replaced README with clean frozen v1.1 version (no Suricata) for public use

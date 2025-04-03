@@ -1,44 +1,48 @@
-
 # Meno Project
 
-The Meno Project is a personal modular CLI-based framework for organizing tasks, analyzing logs, monitoring systems, and practicing structured security workflows. Built for use in a homelab environment, it supports daily automation and clean Git publishing using a local scheduler system.
+This is a personal system I’ve built to organize my life, manage logs, and publish updates automatically. It runs from the command line, but you don’t need to know Git to use it — everything important gets published once per day without you thinking about it.
+
+The idea came from wanting more structure, less chaos, and a tool that works with how my brain works — not against it.
 
 ---
 
-## 🔧 Core Features
+## What It Does
 
-- CLI-based modular dashboard
-- Role-Based Access Control (RBAC)
-- Modular containers:
-  - ✅ Task Manager (To-do + project tracker)
-  - ✅ Suricata log parser (JSON alert analysis)
-  - ✅ System monitoring (CPU, memory, network)
-  - ✅ Secure notes and journaling
-- Git auto-publishing system with meaningful commit logs
-- Markdown logging system with daily update queue
+- Lets me work in a folder like normal (write, code, log stuff)
+- Run `logchange` to mark what I did
+- Once a day, it checks for changes and auto-publishes to GitHub
+
+I never have to touch Git, and I don’t have to remember what I changed — it’s all tracked.
 
 ---
 
-## 🛠️ GitHub Auto-Publish System
+## Why I Built It
 
-GitHub cannot be directly updated by ChatGPT, so this repo includes a **local publishing system**:
+I’m learning security, writing, and trying to build better habits. This project helps me stay focused and reflect on what I’m doing while learning Git, scripting, and systems in a low-friction way.
 
-1. Run `logchange` in Git Bash to log a meaningful update.
-2. The update is written to `change-queue.txt`.
-3. A scheduled script (`auto-publish.sh`) runs daily and:
-   - Commits changes with the log message
-   - Pushes to GitHub
-   - Clears the queue
-
-You never touch Git again.
+It's designed for someone like me — with ADHD, a deep need for clarity, and no patience for bloated tools or workflows that get in the way.
 
 ---
 
-## 🧠 Philosophy
+## Who It's For
 
-This project is about structured thinking, presence, and ownership. It merges productivity tools with homelab learning and Stoic values. The goal is a single terminal-based space to manage life and security.
+- Me, first
+- People like me who want to be intentional, structured, and creative at the same time
+- Anyone who wants to track their progress and publish it without friction
 
 ---
 
-## 🗂️ Folder Structure (Planned)
+## How to Use It
 
+- Clone the repo
+- Set up the alias `logchange`
+- Work inside the folder
+- Log what you changed
+- Let the scheduler do the rest
+
+---
+
+## Author
+
+Heath Crawford  
+Stoic in progress. Homelab builder. Builder of quiet systems.
